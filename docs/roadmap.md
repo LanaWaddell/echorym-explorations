@@ -1,48 +1,83 @@
 # Roadmap
 
-## Phase 0: Documentation-First Scaffold
+## Purpose
+
+This roadmap keeps Echorym documentation-first while the core system is still being defined. It favors small, reviewable milestones over early engine or model commitments.
+
+## v0.1: Development Charter
 
 Status: In progress
 
 Goals:
 
-- Preserve the existing experiment-loop framing.
-- Establish the first Echorym repo structure.
-- Define starter schemas for world, entity, player, event, and memory traces.
-- Name Prototype 0 and constrain its scope.
-- Capture the first coherence threshold model.
+- Define Echorym as an adaptive coherence-world system centered on relationship under uncertainty.
+- Clarify that Echorym is not primarily a content-generation system.
+- Define content as one class of signal that can affect coherence, trust, resilience, memory, and world evolution.
+- Establish the four working layers: world, mechanics, simulation/experiment, and research.
+- Define Prototype 0: The First Conduit as the smallest living loop.
+- Record guiding principles, non-goals, success criteria, and open design questions.
 
-## Phase 1: Prototype 0 - The First Conduit
+Exit criteria:
 
-Goals:
+- `docs/development-charter.md` provides the v0.1 charter.
+- `docs/architecture/prototype-0-scope.md` constrains the first prototype.
+- `docs/glossary.md` defines the core terms used across the charter and prototype scope.
+- The repo remains structurally unchanged and implementation-neutral.
 
-- Write a small scenario that can be played manually or simulated.
-- Track player intent, world response, uncertain choices, trust change, coherence change, signal integrity, resilience, and memory.
-- Produce at least one complete state / action / consequence / coherence trajectory.
-- Identify which schema fields are missing, confusing, or unnecessary.
-
-## Phase 2: Experiment Loop
-
-Goals:
-
-- Add a reproducible run format for scenario traces.
-- Define simple evaluation scorecards.
-- Compare different world-response policies without assuming reward optimization.
-- Separate observations from interpretations.
-
-## Phase 3: Adaptive World Interfaces
+## v0.2: Prototype 0 Scenario Trace
 
 Goals:
 
-- Stabilize data contracts for entities, relationships, memory, and event causality.
-- Explore how agents can assist world response, memory recall, and evaluation.
-- Document safety, provenance, and simulation ethics requirements.
+- Write one complete First Conduit scenario trace.
+- Record initial state, player intent, world response, decision gateway, choice, consequence, memory trace, and final state.
+- Identify which schema fields need revision.
+- Keep the trace small enough for manual review.
 
-## Phase 4: Prototype Expansion
+Exit criteria:
+
+- One complete state / action / consequence / coherence trajectory exists.
+- Trust, coherence, signal integrity, resilience, and memory changes are visible.
+- The trace can be replayed or inspected without choosing an engine.
+
+## v0.3: Evaluation and Reproducibility
 
 Goals:
 
-- Add more conduits, anchors, trust networks, and memory trace patterns.
-- Evaluate text, simulation, visual, and hybrid prototype paths.
-- Decide whether any engine, framework, or language should become canonical.
+- Define a minimal evaluation rubric.
+- Separate observations, interpretations, and design decisions.
+- Add a reproducible experiment note format.
+- Identify what data should stay local, tracked, or untrusted.
 
+Exit criteria:
+
+- Evaluation notes can compare two possible world responses.
+- Reproducibility expectations are clear for future simulations.
+- Provenance handling is documented for generated and external material.
+
+## v0.4: Interface Hardening
+
+Goals:
+
+- Revise schemas based on Prototype 0 evidence.
+- Clarify layer boundaries where terms overlap.
+- Decide whether any small helper scripts are needed.
+- Keep runtime choices optional unless the prototype demands them.
+
+Exit criteria:
+
+- Schemas support the core loop without excess fields.
+- Open questions are reduced or routed into specific design decisions.
+- Future prototype directions are documented.
+
+## Later directions
+
+Possible future paths include:
+
+- Text prototype
+- Simulation notebook
+- Agent-assisted world response experiment
+- Visual worldbuilding study
+- Research application
+- Game implementation
+
+These are options, not commitments.
