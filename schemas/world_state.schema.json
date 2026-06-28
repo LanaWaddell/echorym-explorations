@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/echorym/schemas/world_state.schema.json",
+  "title": "Echorym World State",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "world_id",
+    "name",
+    "coherence",
+    "active_gates",
+    "entities",
+    "memory_traces"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "world_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "coherence": {
+      "type": "object",
+      "required": [
+        "current",
+        "nearest_gate"
+      ],
+      "properties": {
+        "current": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "nearest_gate": {
+          "type": "string",
+          "enum": [
+            "Pattern Emergence Gate",
+            "Resonance Gate",
+            "Topological Lock Gate",
+            "Phase Travel Gate",
+            "Unified Field Gate"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "active_gates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "threshold",
+          "name"
+        ],
+        "properties": {
+          "threshold": {
+            "type": "number"
+          },
+          "name": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "inactive",
+              "approaching",
+              "active",
+              "unstable"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "regions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "anchors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "memory_traces": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "created_by": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "review_status": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
+

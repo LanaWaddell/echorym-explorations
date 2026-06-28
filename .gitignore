@@ -1,0 +1,54 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor and local workspace files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and local run output
+*.log
+logs/
+/runs/
+/outputs/
+/artifacts/
+
+# Local data and scratch space
+/data/
+/tmp/
+/scratch/
+*.local.json
+*.local.yaml
+*.local.yml
+
+# Dependency and build artifacts
+node_modules/
+dist/
+build/
+site/
+

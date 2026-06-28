@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/echorym/schemas/memory_trace.schema.json",
+  "title": "Echorym Memory Trace",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "memory_trace_id",
+    "source_event_id",
+    "summary",
+    "effects"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "memory_trace_id": {
+      "type": "string"
+    },
+    "source_event_id": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "affected_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "emotional_weight": {
+      "type": "string",
+      "enum": [
+        "unknown",
+        "low",
+        "moderate",
+        "high",
+        "transformative"
+      ]
+    },
+    "effects": {
+      "type": "object",
+      "properties": {
+        "trust": {
+          "type": "string"
+        },
+        "coherence": {
+          "type": "string"
+        },
+        "signal_integrity": {
+          "type": "string"
+        },
+        "resilience": {
+          "type": "string"
+        },
+        "future_response": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "dormant",
+        "contested",
+        "corrupted",
+        "repaired",
+        "archived"
+      ]
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "created_by": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "review_status": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
+
