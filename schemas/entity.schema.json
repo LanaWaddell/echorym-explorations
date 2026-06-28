@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/echorym/schemas/entity.schema.json",
+  "title": "Echorym Entity",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "entity_id",
+    "name",
+    "entity_type",
+    "state"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "entity_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "entity_type": {
+      "type": "string",
+      "enum": [
+        "player-facing guide",
+        "anchor",
+        "conduit",
+        "trust network",
+        "memory-bearing location",
+        "signal source",
+        "unknown presence",
+        "other"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "state": {
+      "type": "object",
+      "properties": {
+        "coherence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "trust_posture": {
+          "type": "string"
+        },
+        "signal_integrity": {
+          "type": "string",
+          "enum": [
+            "unknown",
+            "low",
+            "partial",
+            "stable",
+            "high",
+            "corrupted"
+          ]
+        },
+        "resilience": {
+          "type": "string",
+          "enum": [
+            "unknown",
+            "fragile",
+            "strained",
+            "adaptive",
+            "resilient"
+          ]
+        },
+        "active": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "target_id",
+          "relationship_type"
+        ],
+        "properties": {
+          "target_id": {
+            "type": "string"
+          },
+          "relationship_type": {
+            "type": "string"
+          },
+          "trust": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "memory_trace_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "created_by": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "review_status": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
+

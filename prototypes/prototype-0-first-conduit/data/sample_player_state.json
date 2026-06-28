@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.1.0",
+  "player_id": "player-001",
+  "declared_intent": "Enter without breaking the signal that called me.",
+  "inferred_intent": "The world reads the player as cautious, curious, and not yet aligned.",
+  "coherence": 0.41,
+  "trust_links": [
+    {
+      "target_id": "entity-first-conduit",
+      "trust": 0.42,
+      "basis": "First contact through a partial but non-hostile response."
+    }
+  ],
+  "known_signals": [
+    {
+      "signal_id": "signal-underpulse-001",
+      "integrity": "partial",
+      "interpretation": "A quieter signal may be older than the conduit response."
+    }
+  ],
+  "memory_trace_ids": [
+    "memory-first-intent"
+  ],
+  "decision_history": []
+}
+

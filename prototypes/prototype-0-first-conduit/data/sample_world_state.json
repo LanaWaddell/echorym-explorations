@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.1.0",
+  "world_id": "world-first-conduit",
+  "name": "The First Conduit Threshold",
+  "description": "A small world-state sample for Prototype 0.",
+  "coherence": {
+    "current": 0.376,
+    "nearest_gate": "Pattern Emergence Gate",
+    "notes": "The first recognizable pattern has emerged, but resonance is not yet stable."
+  },
+  "active_gates": [
+    {
+      "threshold": 0.376,
+      "name": "Pattern Emergence Gate",
+      "status": "active"
+    },
+    {
+      "threshold": 0.618,
+      "name": "Resonance Gate",
+      "status": "approaching"
+    }
+  ],
+  "regions": [
+    "first-conduit-threshold"
+  ],
+  "anchors": [
+    "anchor-threshold-stone"
+  ],
+  "entities": [
+    "entity-first-conduit"
+  ],
+  "memory_traces": [
+    "memory-first-intent"
+  ],
+  "provenance": {
+    "created_by": "Codex from user-approved scaffold request",
+    "source": "Prototype 0 starter data",
+    "review_status": "draft"
+  }
+}
+

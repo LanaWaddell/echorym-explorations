@@ -1,0 +1,31 @@
+{
+  "schema_version": "0.1.0",
+  "entity_id": "entity-first-conduit",
+  "name": "The First Conduit",
+  "entity_type": "conduit",
+  "description": "A responsive threshold that reacts to intent before it fully reveals its purpose.",
+  "state": {
+    "coherence": 0.376,
+    "trust_posture": "uncommitted but listening",
+    "signal_integrity": "partial",
+    "resilience": "strained",
+    "active": true
+  },
+  "relationships": [
+    {
+      "target_id": "player-001",
+      "relationship_type": "first contact",
+      "trust": 0.42,
+      "notes": "The conduit has registered intent but has not yet formed stable trust."
+    }
+  ],
+  "memory_trace_ids": [
+    "memory-first-intent"
+  ],
+  "provenance": {
+    "created_by": "Codex from user-approved scaffold request",
+    "source": "Prototype 0 starter data",
+    "review_status": "draft"
+  }
+}
+

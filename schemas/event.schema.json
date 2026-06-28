@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/echorym/schemas/event.schema.json",
+  "title": "Echorym Event",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "event_id",
+    "event_type",
+    "summary",
+    "participants",
+    "consequences"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "event_id": {
+      "type": "string"
+    },
+    "event_type": {
+      "type": "string",
+      "enum": [
+        "intent_declared",
+        "world_response",
+        "decision_gateway",
+        "choice",
+        "consequence",
+        "memory_created",
+        "signal_change"
+      ]
+    },
+    "summary": {
+      "type": "string"
+    },
+    "uncertainty": {
+      "type": "string"
+    },
+    "participants": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "inputs": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "choice": {
+      "type": "object",
+      "properties": {
+        "actor_id": {
+          "type": "string"
+        },
+        "declared_intent": {
+          "type": "string"
+        },
+        "action": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "consequences": {
+      "type": "object",
+      "properties": {
+        "coherence_delta": {
+          "type": "number"
+        },
+        "trust_delta": {
+          "type": "number"
+        },
+        "signal_integrity_delta": {
+          "type": "number"
+        },
+        "resilience_delta": {
+          "type": "number"
+        },
+        "world_state_changes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "memory_trace_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "created_by": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "review_status": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
+
