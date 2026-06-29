@@ -16,13 +16,20 @@ The player chooses one:
 
 1. Stabilize the conduit now using the partial signal.
 2. Wait and listen for a cleaner signal.
-3. Offer a memory or promise as an anchor before moving.
+3. **Offer a memory or promise as an anchor before moving.** *(canonical)*
 
 ## Consequence sketch
 
 - Stabilizing now may raise resilience but risk signal distortion.
 - Waiting may improve signal integrity but lower short-term conduit stability.
 - Offering an anchor may increase trust but bind the player to a remembered obligation.
+
+## Canonical path
+
+Option 3 is the canonical first trajectory, fully worked in
+[`traces/trace-001-promise-before-passage.md`](traces/trace-001-promise-before-passage.md), where
+the promise is also used as a *non-amplifying test* of the signal. Options 1 and 2 remain open as
+future branch traces.
 
 ## Memory
 

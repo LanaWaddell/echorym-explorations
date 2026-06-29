@@ -23,6 +23,26 @@ It is not a full game, engine decision, AI product, or content pipeline.
 - `design.md`: Mechanics and scenario design notes.
 - `sample_scenario.md`: A small playable outline.
 - `data/`: Sample JSON records that demonstrate the initial schemas.
+- `traces/`: Complete, inspectable trajectories. **The canonical first trajectory is
+  [`traces/trace-001-promise-before-passage.md`](traces/trace-001-promise-before-passage.md)**
+  ("Promise Before Passage"), with its machine-readable records under
+  `traces/data/trace-001-promise-before-passage/` and the schema issues it surfaced in
+  [`traces/SCHEMA_OBSERVATIONS.md`](traces/SCHEMA_OBSERVATIONS.md).
+
+## Canonical trace
+
+Trace 001 — **Promise Before Passage** is the first complete Echorym loop. The player offers a
+memory-binding promise as an anchor and uses it to let the calling signal clarify *without*
+amplifying it. It is the reference example of relationship under uncertainty: the choice produces
+benefit *and* binding, and the world remembers consequential behaviour rather than rewarding
+desirable behaviour.
+
+Two local rules established by that trace and carried forward:
+
+1. **No score is valid without a rationale.** All trust/coherence/signal/resilience values are
+   provisional interpretive estimates, not computed values.
+2. **Gate values are orientation markers, not computed truths.** The system may move near, past,
+   or away from a gate without snapping to it.
 
 ## Evaluation focus
 

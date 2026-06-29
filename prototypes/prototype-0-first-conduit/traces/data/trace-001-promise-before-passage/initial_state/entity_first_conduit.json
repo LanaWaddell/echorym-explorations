@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.1.0",
+  "entity_id": "entity-first-conduit",
+  "name": "The First Conduit",
+  "entity_type": "conduit",
+  "description": "A responsive threshold that reacts to intent before it reveals its purpose. It responds before it explains. Currently open only partway and strained.",
+  "state": {"coherence": 0.38, "trust_posture": "uncommitted but listening", "signal_integrity": "partial", "resilience": "strained", "active": true},
+  "relationships": [
+    {"target_id": "player-001", "relationship_type": "first contact", "trust": 0.42, "notes": "Registered intent; no stable trust yet."},
+    {"target_id": "entity-underpulse-network", "relationship_type": "carries-signal-from", "notes": "The underpulse beneath the conduit response appears to originate from the dormant network."}
+  ],
+  "memory_trace_ids": [],
+  "provenance": {"created_by": "Merged canonical trace: Echo (promise-anchor path) + Claude (schema discipline), assembled by Claude (Opus 4.8) with Lana", "source": "Phase-1 canonical v0.2 trajectory, hand-authored", "review_status": "draft"}
+}

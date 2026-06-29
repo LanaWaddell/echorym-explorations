@@ -1,0 +1,20 @@
+{
+  "schema_version": "0.1.0",
+  "world_id": "world-first-conduit",
+  "name": "The First Conduit Threshold",
+  "description": "Initial world state for the canonical trace 'Promise Before Passage'. One threshold region: a partially-open conduit, an unused anchor stone, and a dormant trust network stirring beneath.",
+  "coherence": {
+    "current": 0.38,
+    "nearest_gate": "Pattern Emergence Gate",
+    "notes": "Provisional interpretive estimate. Gate values are orientation markers, not computed truths: the system may move near, past, or away from a gate without snapping to it. Set to 0.38 (just past the 0.376 marker) to make that concrete — the Pattern Emergence Gate is active as an interpretive region, but the number is not sacred. (Minor note: Echo's earlier draft started exactly on 0.376; 0.38 just past reads the same intent.)"
+  },
+  "active_gates": [
+    {"threshold": 0.376, "name": "Pattern Emergence Gate", "status": "active"},
+    {"threshold": 0.618, "name": "Resonance Gate", "status": "approaching"}
+  ],
+  "regions": ["first-conduit-threshold"],
+  "anchors": ["entity-threshold-stone"],
+  "entities": ["entity-first-conduit", "entity-threshold-stone", "entity-underpulse-network"],
+  "memory_traces": [],
+  "provenance": {"created_by": "Merged canonical trace: Echo (promise-anchor path) + Claude (schema discipline), assembled by Claude (Opus 4.8) with Lana", "source": "Phase-1 canonical v0.2 trajectory, hand-authored", "review_status": "draft"}
+}
