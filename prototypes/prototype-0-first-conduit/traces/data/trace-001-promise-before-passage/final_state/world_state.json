@@ -1,0 +1,20 @@
+{
+  "schema_version": "0.1.0",
+  "world_id": "world-first-conduit",
+  "name": "The First Conduit Threshold",
+  "description": "World state after 'Promise Before Passage'. The player may pass, but as someone now known by a promise. The first memory trace exists; the dormant network was protected, not woken; the world's open obligations and open questions both grew.",
+  "coherence": {
+    "current": 0.43,
+    "nearest_gate": "Pattern Emergence Gate",
+    "notes": "Rose ~0.05 on increased legibility (intent/signal/memory alignment), still short of the Resonance Gate. The rise reflects better UNDERSTANDING, not a more settled world. Provisional interpretive score; rationale required (see SCHEMA_OBSERVATIONS)."
+  },
+  "active_gates": [
+    {"threshold": 0.376, "name": "Pattern Emergence Gate", "status": "active"},
+    {"threshold": 0.618, "name": "Resonance Gate", "status": "approaching"}
+  ],
+  "regions": ["first-conduit-threshold"],
+  "anchors": ["entity-threshold-stone"],
+  "entities": ["entity-first-conduit", "entity-threshold-stone", "entity-underpulse-network"],
+  "memory_traces": ["memory-first-promise"],
+  "provenance": {"created_by": "Merged canonical trace: Echo (promise-anchor path) + Claude (schema discipline), assembled by Claude (Opus 4.8) with Lana", "source": "Phase-1 canonical v0.2 trajectory, hand-authored", "review_status": "draft"}
+}

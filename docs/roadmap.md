@@ -26,6 +26,11 @@ Exit criteria:
 
 ## v0.2: Prototype 0 Scenario Trace
 
+Status: First trace delivered — **Trace 001: Promise Before Passage**
+(`prototypes/prototype-0-first-conduit/traces/trace-001-promise-before-passage.md`). All records
+validate against the current schemas; schema questions are recorded in
+`traces/SCHEMA_OBSERVATIONS.md` without changing the schemas yet.
+
 Goals:
 
 - Write one complete First Conduit scenario trace.
@@ -35,9 +40,12 @@ Goals:
 
 Exit criteria:
 
-- One complete state / action / consequence / coherence trajectory exists.
-- Trust, coherence, signal integrity, resilience, and memory changes are visible.
-- The trace can be replayed or inspected without choosing an engine.
+- One complete state / action / consequence / coherence trajectory exists. (done)
+- Trust, coherence, signal integrity, resilience, and memory changes are visible. (done)
+- The trace can be replayed or inspected without choosing an engine. (done)
+
+Remaining for v0.2 close-out: optionally add a second branch trace (the *amplify* path) to stress
+the fields flagged in `SCHEMA_OBSERVATIONS.md` before deciding any schema changes in v0.4.
 
 ## v0.3: Evaluation and Reproducibility
 

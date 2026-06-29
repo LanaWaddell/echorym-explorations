@@ -1,0 +1,11 @@
+{
+  "schema_version": "0.1.0",
+  "entity_id": "entity-threshold-stone",
+  "name": "Threshold Stone",
+  "entity_type": "anchor",
+  "description": "A local anchor at the edge of the conduit. Unremarkable and unused at the open: it has not yet accepted the player. It can hold a promise or memory the player chooses to leave.",
+  "state": {"coherence": 0.6, "trust_posture": "neutral, not yet accepting", "signal_integrity": "stable", "resilience": "resilient", "active": true},
+  "relationships": [],
+  "memory_trace_ids": [],
+  "provenance": {"created_by": "Merged canonical trace: Echo (promise-anchor path) + Claude (schema discipline), assembled by Claude (Opus 4.8) with Lana", "source": "Phase-1 canonical v0.2 trajectory, hand-authored", "review_status": "draft"}
+}

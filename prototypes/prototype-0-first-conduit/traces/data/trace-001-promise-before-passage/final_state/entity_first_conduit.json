@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1.0",
+  "entity_id": "entity-first-conduit",
+  "name": "The First Conduit",
+  "entity_type": "conduit",
+  "description": "After 'Promise Before Passage': allows partial passage, marks the player as remembered. It does not trust the player's knowledge; it trusts their restraint. Resilience is best read as 'strained but stabilizing' — the enum can only say 'strained'; the stabilizing trend lives here and in SCHEMA_OBSERVATIONS #7.",
+  "state": {"coherence": 0.43, "trust_posture": "conditionally receptive", "signal_integrity": "partial", "resilience": "strained", "active": true},
+  "relationships": [
+    {"target_id": "player-001", "relationship_type": "first contact with provisional promise-anchor", "trust": 0.52, "notes": "Conditional: trusts restraint, not yet knowledge, competence, or consistency."},
+    {"target_id": "entity-threshold-stone", "relationship_type": "bonded-through-promise", "notes": "The Threshold Stone now holds the player's promise on the conduit's behalf."},
+    {"target_id": "entity-underpulse-network", "relationship_type": "carries-signal-from", "notes": "Underpulse confirmed as a genuine but degraded fragment from the dormant network."}
+  ],
+  "memory_trace_ids": ["memory-first-promise"],
+  "provenance": {"created_by": "Merged canonical trace: Echo (promise-anchor path) + Claude (schema discipline), assembled by Claude (Opus 4.8) with Lana", "source": "Phase-1 canonical v0.2 trajectory, hand-authored", "review_status": "draft"}
+}

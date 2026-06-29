@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.1.0",
+  "memory_trace_id": "memory-first-promise",
+  "source_event_id": "evt-005-consequence",
+  "summary": "At first contact, the player chose to offer a memory-binding promise as an anchor rather than force passage through an incomplete signal, and used the anchor to let the signal clarify without amplifying it.",
+  "affected_ids": [
+    "player-001",
+    "entity-first-conduit",
+    "entity-threshold-stone",
+    "entity-underpulse-network"
+  ],
+  "emotional_weight": "moderate",
+  "effects": {
+    "trust": "Conduit trust rose (0.42 -> 0.52), but conditionally: it trusts the player's restraint, not their knowledge. 'You did not violate me. That matters. But I do not yet know whether you understand what you touched.'",
+    "coherence": "World legibility rose (0.38 -> 0.43); the world-state itself did not become more settled. The number tracks movement; the meaning is in this rationale.",
+    "signal_integrity": "Provenance moved unknown -> inferred. Quality unchanged: the underpulse is no longer collapsing into the conduit's pulse, but it is not repaired.",
+    "resilience": "Strained but stabilizing: a new anchoring relationship, not a structural fix.",
+    "future_response": "The First Conduit and the dormant network will interpret the player's future actions through this first promise. BREAKING it may damage trust more severely than if no promise had been offered. HONOURING it may allow future resonance. The Underpulse Network may later be woken IF a repaired signal is offered."
+  },
+  "status": "active",
+  "provenance": {
+    "created_by": "Merged canonical trace: Echo (promise-anchor path) + Claude (schema discipline), assembled by Claude (Opus 4.8) with Lana",
+    "source": "Phase-1 canonical v0.2 trajectory, hand-authored",
+    "review_status": "draft"
+  }
+}

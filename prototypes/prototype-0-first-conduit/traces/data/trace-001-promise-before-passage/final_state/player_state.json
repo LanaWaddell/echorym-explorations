@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1.0",
+  "player_id": "player-001",
+  "declared_intent": "Enter without breaking the signal that called me.",
+  "inferred_intent": "The world reads the player as cautious, curious, restraint-oriented, and willing to bind action to memory.",
+  "coherence": 0.45,
+  "trust_links": [
+    {"target_id": "entity-first-conduit", "trust": 0.52, "basis": "The player chose not to exploit an incomplete signal and offered a memory-binding promise instead. Trust is in restraint, not knowledge."}
+  ],
+  "known_signals": [
+    {"signal_id": "signal-underpulse-001", "integrity": "partial", "interpretation": "Provenance now inferred: a genuine fragment tied to the Underpulse Network. Quality still degraded (timing distortion unrepaired). No longer collapsing into the conduit pulse."}
+  ],
+  "memory_trace_ids": ["memory-first-promise"],
+  "decision_history": ["choice-offer-promise-anchor"]
+}

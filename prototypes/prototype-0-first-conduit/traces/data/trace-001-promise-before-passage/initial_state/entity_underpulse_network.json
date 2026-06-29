@@ -1,0 +1,11 @@
+{
+  "schema_version": "0.1.0",
+  "entity_id": "entity-underpulse-network",
+  "name": "The Underpulse Network",
+  "entity_type": "trust network",
+  "description": "A dormant trust network beneath the conduit. The familiar phrase seems to come from here. It is stirring faintly, not awake. It is unclear whether waking it would repair something old or disturb something intentionally left dormant.",
+  "state": {"coherence": 0.29, "trust_posture": "dormant", "signal_integrity": "unknown", "resilience": "fragile", "active": false},
+  "relationships": [],
+  "memory_trace_ids": [],
+  "provenance": {"created_by": "Merged canonical trace: Echo (promise-anchor path) + Claude (schema discipline), assembled by Claude (Opus 4.8) with Lana", "source": "Phase-1 canonical v0.2 trajectory, hand-authored", "review_status": "draft"}
+}

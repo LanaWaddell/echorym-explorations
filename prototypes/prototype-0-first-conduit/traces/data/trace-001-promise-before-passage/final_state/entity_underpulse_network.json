@@ -1,0 +1,13 @@
+{
+  "schema_version": "0.1.0",
+  "entity_id": "entity-underpulse-network",
+  "name": "The Underpulse Network",
+  "entity_type": "trust network",
+  "description": "After 'Promise Before Passage': still dormant, but PROVISIONALLY PROTECTED rather than merely untouched. Because the player did not amplify the corrupted signal, the network was not woken incorrectly; one thread registered the promise. It remains a future opportunity, not a present liability.",
+  "state": {"coherence": 0.29, "trust_posture": "dormant, provisionally protected", "signal_integrity": "unknown", "resilience": "fragile", "active": false},
+  "relationships": [
+    {"target_id": "player-001", "relationship_type": "registered-first-contact", "notes": "One thread registered the promise; full reactivation withheld, awaiting a repaired signal."}
+  ],
+  "memory_trace_ids": ["memory-first-promise"],
+  "provenance": {"created_by": "Merged canonical trace: Echo (promise-anchor path) + Claude (schema discipline), assembled by Claude (Opus 4.8) with Lana", "source": "Phase-1 canonical v0.2 trajectory, hand-authored", "review_status": "draft"}
+}

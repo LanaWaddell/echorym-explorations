@@ -1,0 +1,13 @@
+{
+  "schema_version": "0.1.0",
+  "entity_id": "entity-threshold-stone",
+  "name": "Threshold Stone",
+  "entity_type": "anchor",
+  "description": "After 'Promise Before Passage': no longer unused. It has accepted the player's promise as a provisional bond and now holds an open obligation that future events can call due.",
+  "state": {"coherence": 0.6, "trust_posture": "holding a provisional bond", "signal_integrity": "stable", "resilience": "resilient", "active": true},
+  "relationships": [
+    {"target_id": "player-001", "relationship_type": "holds-promise-of", "notes": "Holds memory-first-promise: 'I will not overwrite what I do not yet understand.'"}
+  ],
+  "memory_trace_ids": ["memory-first-promise"],
+  "provenance": {"created_by": "Merged canonical trace: Echo (promise-anchor path) + Claude (schema discipline), assembled by Claude (Opus 4.8) with Lana", "source": "Phase-1 canonical v0.2 trajectory, hand-authored", "review_status": "draft"}
+}
