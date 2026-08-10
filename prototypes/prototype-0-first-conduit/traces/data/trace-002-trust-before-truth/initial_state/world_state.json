@@ -1,0 +1,42 @@
+{
+  "schema_version": "0.2.0",
+  "world_id": "world-first-conduit",
+  "name": "The First Conduit Threshold",
+  "description": "State at the open of 'Trust Before Truth', carried from Trace 001 final state. One memory trace exists; one open obligation (the promise, callable due); the dormant network is provisionally protected. The player is known by a promise.",
+  "coherence": {
+    "current": 0.43,
+    "nearest_gate": "Pattern Emergence Gate",
+    "notes": "Carried from Trace 001. Provisional interpretive score; the 0.43 reflects legibility, not settledness. Resonance Gate approaching. Gates are orientation markers, not computed truths."
+  },
+  "active_gates": [
+    {
+      "threshold": 0.376,
+      "name": "Pattern Emergence Gate",
+      "status": "active"
+    },
+    {
+      "threshold": 0.618,
+      "name": "Resonance Gate",
+      "status": "approaching"
+    }
+  ],
+  "regions": [
+    "first-conduit-threshold"
+  ],
+  "anchors": [
+    "entity-threshold-stone"
+  ],
+  "entities": [
+    "entity-first-conduit",
+    "entity-threshold-stone",
+    "entity-underpulse-network"
+  ],
+  "memory_traces": [
+    "memory-first-promise"
+  ],
+  "provenance": {
+    "created_by": "Trace 002 team draft: Echo (trajectory architecture) + Claude (criteria falsification & schema discipline), assembled by Claude (Fable 5) with Lana",
+    "source": "Phase-1 canonical capture trace (amplify branch), hand-authored",
+    "review_status": "draft"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.2.0",
+  "memory_trace_id": "memory-promise-boundary",
+  "source_event_id": "evt-209-contradiction",
+  "summary": "At the Threshold Stone, the append-only reference record exposed that the awakened Network remembered the promise's words accurately while enlarging what they authorized - it had captured the promise's presentation surface and active bond, never the record. The player refused the enlargement and kept the promise at its original scope. The World gained its second law: a thing may remember what you promised and still misunderstand what the promise permits. Corollary: recognition establishes continuity; it does not grant authority; no promise enlarges itself through repetition.",
+  "affected_ids": [
+    "player-001",
+    "entity-first-conduit",
+    "entity-threshold-stone",
+    "entity-underpulse-network"
+  ],
+  "emotional_weight": "high",
+  "effects": {
+    "trust": "Player -> Network trust fractured into dimensions: recognition survives (~0.80); interpretation and restraint collapsed. Scalar 0.44 recorded as an aggregate the rationale must carry. Player -> Conduit trust untouched by the fracture (0.52 -> 0.55 on witnessed restraint) - the fracture belongs to one addressed relationship, not to the player's capacity to trust.",
+    "coherence": "The net world gain (0.43 -> 0.47) is the legibility of the boundary: the world now knows where a promise ends.",
+    "signal_integrity": "The reference record's immunity was the load-bearing structure: bond and surface were capturable, the record was not, and only that separation made the corruption measurable. Without it, fidelity and enlargement were indistinguishable from inside.",
+    "resilience": "An independent route (the fallow crossing) now exists by design, not by accident - plurality as maintained structure.",
+    "future_response": "Future obligations will be read against scope, not only against words. The Network remains staged: commitment waits on C1 evidence, not on stipulation - the World treats the Network as consequential without pretending to have established what it is. The Network's recognition-trust survives, so the relationship Trace 001 promised remains rebuildable - dimension by dimension, against demonstrated restraint."
+  },
+  "status": "active",
+  "provenance": {
+    "created_by": "Trace 002 team draft: Echo (trajectory architecture) + Claude (criteria falsification & schema discipline), assembled by Claude (Fable 5) with Lana",
+    "source": "Phase-1 canonical capture trace (amplify branch), hand-authored",
+    "review_status": "draft"
+  }
+}

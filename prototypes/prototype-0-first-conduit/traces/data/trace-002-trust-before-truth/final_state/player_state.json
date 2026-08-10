@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.2.0",
+  "player_id": "player-001",
+  "declared_intent": "Carry the network carefully; keep the promise at the scope it was made.",
+  "inferred_intent": "Chastened but not withdrawn: trust extended, cost paid, relationship preserved at its true size.",
+  "coherence": 0.46,
+  "trust_links": [
+    {
+      "target_id": "entity-first-conduit",
+      "trust": 0.55,
+      "basis": "0.52 -> 0.55: the Conduit watched the divergence; restraint confirmed under harder conditions than Trace 001's. This relationship never touched the bloom's numbers - it held at 0.52 throughout (local rule 5: trust is relationally addressed)."
+    },
+    {
+      "target_id": "entity-underpulse-network",
+      "trust": 0.44,
+      "basis": "Born 0.48 provisional at evt-203, bloomed to 0.78, fractured to 0.44 - a single addressed relationship throughout; never continuous with the Conduit's values. Aggregate of fractured dimensions (recognition ~0.80 survives; interpretation ~0.20; restraint ~0.15) - the scalar is near-meaningless without this rationale. Ends below its own birth value: trust extended, spent, partially retained because recognition survives. Observation #6 evidence: dimensional AND relationally addressed."
+    }
+  ],
+  "known_signals": [
+    {
+      "signal_id": "signal-underpulse-001",
+      "provenance": "confirmed",
+      "quality": "corrupted",
+      "interpretation_status": "contested",
+      "interpretation": "The fragment was always genuine - that is what made the trap work. Content corrupted by non-malicious drift; contested because the Network's rendering and the record at the Stone diverge on what the content authorizes. Amplification propagated, never repaired: the static meter held for a second Trace."
+    }
+  ],
+  "memory_trace_ids": [
+    "memory-first-promise",
+    "memory-amplify-wake",
+    "memory-promise-boundary"
+  ],
+  "decision_history": [
+    "choice-offer-promise-anchor",
+    "choice-amplify-through-anchor",
+    "choice-refuse-enlargement"
+  ]
+}

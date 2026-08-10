@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.2.0",
+  "world_id": "world-first-conduit",
+  "name": "The First Conduit Threshold",
+  "description": "State after 'Trust Before Truth'. The Network is awake, real, constrained - and STAGED: C1 indeterminate, so DN 4.1 holds commitment open; its authority over the wider World is unapplied and its pending deltas accumulate unspent (DN 3.1). The rule 'recognition -> amplification authority' is withheld and logged. The fallow crossing is restored as an independently reachable route (not a region). The promise survives at its clarified original scope, presented from the reference record. Three memory traces; the World knows where a promise ends, and pays staging's coherence cost rather than commit on stipulation.",
+  "coherence": {
+    "current": 0.47,
+    "nearest_gate": "Pattern Emergence Gate",
+    "notes": "Net +0.04 over the Trace open: the legibility of the boundary. The bloom's 0.55 was genuinely reached under the measurement then in use and stands in the record; its meaning was corrected, not erased - that measurement conflated local alignment and reduced diversity with global coherence (observation #5 evidence; append-only discipline applied to a number). Staging's ongoing coherence cost is carried knowingly (DN 4.1). Resonance Gate approaching - genuinely unknown whether nearer or farther than before; the bloom's approach was artifact of the conflation."
+  },
+  "active_gates": [
+    {
+      "threshold": 0.376,
+      "name": "Pattern Emergence Gate",
+      "status": "active"
+    },
+    {
+      "threshold": 0.618,
+      "name": "Resonance Gate",
+      "status": "approaching"
+    }
+  ],
+  "regions": [
+    "first-conduit-threshold",
+    "underpulse-network-region"
+  ],
+  "anchors": [
+    "entity-threshold-stone"
+  ],
+  "entities": [
+    "entity-first-conduit",
+    "entity-threshold-stone",
+    "entity-underpulse-network"
+  ],
+  "memory_traces": [
+    "memory-first-promise",
+    "memory-amplify-wake",
+    "memory-promise-boundary"
+  ],
+  "provenance": {
+    "created_by": "Trace 002 team draft: Echo (trajectory architecture) + Claude (criteria falsification & schema discipline), assembled by Claude (Fable 5) with Lana",
+    "source": "Phase-1 canonical capture trace (amplify branch), hand-authored",
+    "review_status": "draft"
+  }
+}

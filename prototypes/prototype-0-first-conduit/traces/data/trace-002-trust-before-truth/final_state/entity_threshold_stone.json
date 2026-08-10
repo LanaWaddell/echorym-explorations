@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.2.0",
+  "entity_id": "entity-threshold-stone",
+  "name": "The Threshold Stone",
+  "entity_type": "anchor",
+  "description": "Its ACTIVE BOND was extended for amplification and its PRESENTATION SURFACE was captured for a time - the Network quoted the promise as its own mandate - while the REFERENCE RECORD never entered the loop: unedited, unexpanded, append-only. That separation is why fidelity and enlargement could be told apart at the contradiction. Bond and surface reverted at the reopening; the promise is presented from the record again. Now also holds the second law and its corollary. The record component proved to be the load-bearing structure of the entire Trace.",
+  "state": {
+    "coherence": 0.55,
+    "trust_posture": "anchor exercised; holds the promise and the law",
+    "signal_provenance": "confirmed",
+    "signal_quality": "intact",
+    "resilience": "adaptive",
+    "resilience_trend": "strengthened by exercise",
+    "active": true
+  },
+  "relationships": [
+    {
+      "target_id": "player-001",
+      "relationship_type": "promise-bond",
+      "notes": "Bond survives at clarified original scope; obligation remains callable."
+    },
+    {
+      "target_id": "entity-underpulse-network",
+      "relationship_type": "external-reference",
+      "notes": "The reference record governs what the promise permits; the Network's rendering does not. The withheld rule is logged here. During the capture the Network held the surface, never the record."
+    }
+  ],
+  "memory_trace_ids": [
+    "memory-first-promise",
+    "memory-amplify-wake",
+    "memory-promise-boundary"
+  ],
+  "provenance": {
+    "created_by": "Trace 002 team draft: Echo (trajectory architecture) + Claude (criteria falsification & schema discipline), assembled by Claude (Fable 5) with Lana",
+    "source": "Phase-1 canonical capture trace (amplify branch), hand-authored",
+    "review_status": "draft"
+  }
+}
