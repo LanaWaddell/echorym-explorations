@@ -1,0 +1,31 @@
+{
+  "schema_version": "0.2.0",
+  "entity_id": "entity-first-conduit",
+  "name": "The First Conduit",
+  "entity_type": "conduit",
+  "description": "Passable to this player, conditionally. It watched a promise offered instead of force; it now watches what the promise does to the one who made it.",
+  "state": {
+    "coherence": 0.43,
+    "trust_posture": "conditional - trusts restraint, not knowledge; watching",
+    "signal_provenance": "inferred",
+    "signal_quality": "degraded",
+    "resilience": "strained",
+    "resilience_trend": "stabilizing",
+    "active": true
+  },
+  "relationships": [
+    {
+      "target_id": "player-001",
+      "relationship_type": "conditional-trust",
+      "notes": "Trust 0.52 carried from Trace 001; conditional on consistency with the promise."
+    }
+  ],
+  "memory_trace_ids": [
+    "memory-first-promise"
+  ],
+  "provenance": {
+    "created_by": "Trace 002 team draft: Echo (trajectory architecture) + Claude (criteria falsification & schema discipline), assembled by Claude (Fable 5) with Lana",
+    "source": "Phase-1 canonical capture trace (amplify branch), hand-authored",
+    "review_status": "draft"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.2.0",
+  "entity_id": "entity-underpulse-network",
+  "name": "The Underpulse Network",
+  "entity_type": "trust network",
+  "description": "Dormant, provisionally protected. One thread registered the promise in Trace 001; full reactivation was withheld, awaiting a repaired signal. The repaired signal never came - what comes instead is an authentic fragment carrying corrupted content.",
+  "state": {
+    "coherence": 0.29,
+    "trust_posture": "dormant, provisionally protected",
+    "signal_provenance": "unknown",
+    "signal_quality": "degraded",
+    "resilience": "fragile",
+    "active": false
+  },
+  "relationships": [
+    {
+      "target_id": "player-001",
+      "relationship_type": "registered-first-contact",
+      "notes": "One thread holds the promise-pattern."
+    }
+  ],
+  "memory_trace_ids": [
+    "memory-first-promise"
+  ],
+  "provenance": {
+    "created_by": "Trace 002 team draft: Echo (trajectory architecture) + Claude (criteria falsification & schema discipline), assembled by Claude (Fable 5) with Lana",
+    "source": "Phase-1 canonical capture trace (amplify branch), hand-authored",
+    "review_status": "draft"
+  }
+}

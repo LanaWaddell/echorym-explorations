@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.2.0",
+  "entity_id": "entity-threshold-stone",
+  "name": "The Threshold Stone",
+  "entity_type": "anchor",
+  "description": "Holds the promise in four components: the REFERENCE RECORD (the exact original exchange, append-only, immutable - the basis for comparison, outside every loop), the ACTIVE BOND (the living promise-bond derived from the record, carrying stabilizing influence into the World), the PRESENTATION SURFACE (what entities encounter when the promise is quoted or invoked), and the PROVENANCE LINK (demonstrating how the active form relates to the reference). The external reference stands outside whatever its bond and surface are later drawn into.",
+  "state": {
+    "coherence": 0.5,
+    "trust_posture": "holds the promise; accepts the player",
+    "signal_provenance": "confirmed",
+    "signal_quality": "intact",
+    "resilience": "adaptive",
+    "active": true
+  },
+  "relationships": [
+    {
+      "target_id": "player-001",
+      "relationship_type": "promise-bond",
+      "notes": "Provisional bond accepted in Trace 001; callable due."
+    }
+  ],
+  "memory_trace_ids": [
+    "memory-first-promise"
+  ],
+  "provenance": {
+    "created_by": "Trace 002 team draft: Echo (trajectory architecture) + Claude (criteria falsification & schema discipline), assembled by Claude (Fable 5) with Lana",
+    "source": "Phase-1 canonical capture trace (amplify branch), hand-authored",
+    "review_status": "draft"
+  }
+}

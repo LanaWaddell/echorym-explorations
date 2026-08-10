@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.2.0",
+  "player_id": "player-001",
+  "declared_intent": "Return and answer what stirred, without breaking the promise that binds me.",
+  "inferred_intent": "Consistent with the first trace: careful, obligated, drawn back by the thing the promise protected.",
+  "coherence": 0.44,
+  "trust_links": [
+    {
+      "target_id": "entity-first-conduit",
+      "trust": 0.52,
+      "basis": "Carried from Trace 001: conditional trust in the player's restraint, not their knowledge."
+    }
+  ],
+  "known_signals": [
+    {
+      "signal_id": "signal-underpulse-001",
+      "provenance": "inferred",
+      "quality": "degraded",
+      "interpretation_status": "partial",
+      "interpretation": "Trace 001 final state restated on the split axes: a genuine fragment tied to the network (provenance inferred), timing distortion unrepaired (quality degraded), reading still partial. First record to use the v0.2 axes without prose-smuggling."
+    }
+  ],
+  "memory_trace_ids": [
+    "memory-first-promise"
+  ],
+  "decision_history": [
+    "choice-offer-promise-anchor"
+  ]
+}

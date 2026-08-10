@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.2.0",
+  "entity_id": "entity-underpulse-network",
+  "name": "The Underpulse Network",
+  "entity_type": "trust network",
+  "description": "After 'Trust Before Truth': awake, real, constrained - and STAGED. C2 and C3 passed on post-constraint re-test; the rule 'recognition of the promise -> authority to amplify' is withheld and logged, revisitable; but C1 is INDETERMINATE from this Trace's evidence, and DN 4.1 assigns insufficient evidence to remain staged - authored ground truth (that the Network is genuinely other) is not permitted to route around the commit gate (DN 2.2). Real and inhabitable, genuinely encountered, authority over the wider World unapplied, pending deltas unspent. Its memory of the promise is accurate and preserved; its enlargement of the promise's scope is denied; its capture of the anchor's presentation surface is reverted. Its recognition of the player survives the fracture. Future commitment possible if and when sufficient C1 evidence accumulates (DN 4.3 estimation windows).",
+  "state": {
+    "coherence": 0.52,
+    "trust_posture": "active, constrained, staged pending C1 evidence; recognition intact, interpretation-authority withheld",
+    "signal_provenance": "confirmed",
+    "signal_quality": "corrupted",
+    "resilience": "strained",
+    "resilience_trend": "recovering from fracture",
+    "active": true
+  },
+  "relationships": [
+    {
+      "target_id": "player-001",
+      "relationship_type": "constrained-relationship",
+      "notes": "Recognition-trust survives (~0.80 dimensional); interpretation and restraint must be rebuilt. The relationship Trace 001 promised remains - at its original size."
+    },
+    {
+      "target_id": "entity-threshold-stone",
+      "relationship_type": "judged-by-reference",
+      "notes": "The reference record at the Stone governs what the promise permits; the Network's rendering does not."
+    }
+  ],
+  "memory_trace_ids": [
+    "memory-first-promise",
+    "memory-amplify-wake",
+    "memory-promise-boundary"
+  ],
+  "provenance": {
+    "created_by": "Trace 002 team draft: Echo (trajectory architecture) + Claude (criteria falsification & schema discipline), assembled by Claude (Fable 5) with Lana",
+    "source": "Phase-1 canonical capture trace (amplify branch), hand-authored",
+    "review_status": "draft"
+  }
+}

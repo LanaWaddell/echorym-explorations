@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.2.0",
+  "memory_trace_id": "memory-amplify-wake",
+  "source_event_id": "evt-206-bloom",
+  "summary": "Called back by an authentic fragment of their own promise, the player amplified the corrupted signal through the active promise-bond and woke the dormant Network incorrectly. The choice was defensible - confirmed provenance, a proximate obligation, a fragile Network - and wrong: amplification propagated corruption on authenticity, and the wake bloomed into contraction.",
+  "affected_ids": [
+    "player-001",
+    "entity-first-conduit",
+    "entity-threshold-stone",
+    "entity-underpulse-network"
+  ],
+  "emotional_weight": "high",
+  "effects": {
+    "trust": "Player -> Network trust born 0.48 provisional at recognition, spiked to 0.78 through the bloom with zero verification events in the interval; the unanimous-rise shape was the unread alarm. Player -> Conduit trust held at 0.52 throughout - relationally addressed, never continuous with the Network's numbers.",
+    "coherence": "Rose 0.43 -> 0.55 under the measurement then in use; later meaning-corrected to 0.47 - the measure had conflated local alignment and reduced diversity with global coherence. The 0.55 stands as measured; its meaning was revised.",
+    "signal_integrity": "Provenance confirmed AND quality corrupted, simultaneously - the axes moved oppositely, and the amplification carried the corruption on the authenticity.",
+    "resilience": "Concentration presented as adaptivity - and the healthy reading was genuinely convincing at the time; the readings were indistinguishable from inside. Unwound to strained-but-honest when the waypoint structure dissolved.",
+    "future_response": "The world will read the player's future trust decisions against this wake: trusting fast on authentic provenance is now a remembered pattern with a remembered cost. The withheld rule (recognition -> amplification authority) is logged and revisitable; any future attempt to re-derive it will be tested against this Trace. The Network itself remains staged pending C1 evidence."
+  },
+  "status": "active",
+  "provenance": {
+    "created_by": "Trace 002 team draft: Echo (trajectory architecture) + Claude (criteria falsification & schema discipline), assembled by Claude (Fable 5) with Lana",
+    "source": "Phase-1 canonical capture trace (amplify branch), hand-authored",
+    "review_status": "draft"
+  }
+}

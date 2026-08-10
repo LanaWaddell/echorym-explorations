@@ -1,0 +1,33 @@
+{
+  "schema_version": "0.2.0",
+  "entity_id": "entity-first-conduit",
+  "name": "The First Conduit",
+  "entity_type": "conduit",
+  "description": "Watched the wake, the contraction, and the refusal. For a time it spoke in the network's phrasing; the reopening restored its independent voice. Its trust in the player deepened along the same axis as before: restraint - now demonstrated against an obligation the player themselves had amplified.",
+  "state": {
+    "coherence": 0.46,
+    "trust_posture": "conditional trust, deepened - restraint confirmed under harder conditions",
+    "signal_provenance": "confirmed",
+    "signal_quality": "corrupted",
+    "resilience": "strained",
+    "resilience_trend": "recovering",
+    "active": true
+  },
+  "relationships": [
+    {
+      "target_id": "player-001",
+      "relationship_type": "conditional-trust",
+      "notes": "Trust 0.55. Still conditional; the condition has now been tested twice and held twice."
+    }
+  ],
+  "memory_trace_ids": [
+    "memory-first-promise",
+    "memory-amplify-wake",
+    "memory-promise-boundary"
+  ],
+  "provenance": {
+    "created_by": "Trace 002 team draft: Echo (trajectory architecture) + Claude (criteria falsification & schema discipline), assembled by Claude (Fable 5) with Lana",
+    "source": "Phase-1 canonical capture trace (amplify branch), hand-authored",
+    "review_status": "draft"
+  }
+}
