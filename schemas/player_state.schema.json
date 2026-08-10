@@ -58,8 +58,7 @@
       "items": {
         "type": "object",
         "required": [
-          "signal_id",
-          "integrity"
+          "signal_id"
         ],
         "properties": {
           "signal_id": {
@@ -74,10 +73,38 @@
               "stable",
               "high",
               "corrupted"
-            ]
+            ],
+            "description": "DEPRECATED (v0.2): fuses a knowledge axis and a quality axis in one field. Prefer provenance + quality + interpretation_status. Retained so 0.1.0 records validate."
           },
           "interpretation": {
             "type": "string"
+          },
+          "provenance": {
+            "type": "string",
+            "enum": [
+              "unknown",
+              "inferred",
+              "confirmed"
+            ],
+            "description": "Knowledge axis: how well the signal's origin is established. Can improve while quality does not."
+          },
+          "quality": {
+            "type": "string",
+            "enum": [
+              "intact",
+              "degraded",
+              "corrupted"
+            ],
+            "description": "Physical/structural axis: the condition of the signal itself. Independent of provenance."
+          },
+          "interpretation_status": {
+            "type": "string",
+            "enum": [
+              "partial",
+              "contested",
+              "clarified"
+            ],
+            "description": "Status of the reading. 'interpretation' (free text) remains the rationale for this status."
           }
         },
         "additionalProperties": false
@@ -96,6 +123,6 @@
       }
     }
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "description": "v0.2 amendments (additive): known_signals gains provenance/quality/interpretation_status axes per SCHEMA_OBSERVATIONS #3; legacy 'integrity' deprecated but valid. All 0.1.0 records remain valid."
 }
-

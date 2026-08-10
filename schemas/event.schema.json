@@ -87,6 +87,22 @@
           "items": {
             "type": "string"
           }
+        },
+        "coherence_rationale": {
+          "type": "string",
+          "description": "Rationale for coherence_delta. Standing rule: no score is valid without a rationale; the meaning lives here, not in the number."
+        },
+        "trust_rationale": {
+          "type": "string",
+          "description": "Rationale for trust_delta. Standing rule: no score is valid without a rationale; the meaning lives here, not in the number."
+        },
+        "signal_integrity_rationale": {
+          "type": "string",
+          "description": "Rationale for signal_integrity_delta. Standing rule: no score is valid without a rationale; the meaning lives here, not in the number."
+        },
+        "resilience_rationale": {
+          "type": "string",
+          "description": "Rationale for resilience_delta. Standing rule: no score is valid without a rationale; the meaning lives here, not in the number."
         }
       },
       "additionalProperties": false
@@ -107,6 +123,6 @@
       "additionalProperties": false
     }
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "description": "v0.2 amendments (additive): per-delta rationale fields adopted from SCHEMA_OBSERVATIONS #4. All 0.1.0 records remain valid; records using amended fields should declare schema_version 0.2.0."
 }
-

@@ -56,7 +56,8 @@
             "stable",
             "high",
             "corrupted"
-          ]
+          ],
+          "description": "DEPRECATED (v0.2): combined axis. Prefer signal_provenance + signal_quality. Retained so 0.1.0 records validate."
         },
         "resilience": {
           "type": "string",
@@ -70,6 +71,28 @@
         },
         "active": {
           "type": "boolean"
+        },
+        "signal_provenance": {
+          "type": "string",
+          "enum": [
+            "unknown",
+            "inferred",
+            "confirmed"
+          ],
+          "description": "Knowledge axis of the entity's governing signal."
+        },
+        "signal_quality": {
+          "type": "string",
+          "enum": [
+            "intact",
+            "degraded",
+            "corrupted"
+          ],
+          "description": "Condition axis of the entity's governing signal."
+        },
+        "resilience_trend": {
+          "type": "string",
+          "description": "Optional trend qualifier on the resilience point value (e.g. 'stabilizing', 'deteriorating', 'oscillating'). Obs #2: enums cannot hold a trend; this carries it as state rather than prose."
         }
       },
       "additionalProperties": false
@@ -123,6 +146,6 @@
       "additionalProperties": false
     }
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "description": "v0.2 amendments (additive): state gains signal_provenance/signal_quality (obs #3) and resilience_trend (obs #2); legacy signal_integrity deprecated but valid. All 0.1.0 records remain valid."
 }
-
