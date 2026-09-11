@@ -52,3 +52,7 @@ dist/
 build/
 site/
 
+.DS_Store
+.~lock*
+__pycache__/
+*.pyc
