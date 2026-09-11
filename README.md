@@ -1,5 +1,7 @@
 # Echorym Explorations
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22700638.svg)](https://doi.org/10.5281/zenodo.22700638)
+
 This repository is a documentation-first prototype scaffold for **Echorym**: an adaptive coherence-world system about relationship under uncertainty.
 
 Echorym explores how intent, choice, memory, trust, signal integrity, resilience, and world-state co-evolve over time. It is not primarily a content-generation system. Generated content may eventually help express scenes, logs, diagrams, or simulations, but the central question is systemic: how do choices change relationships, weaken or repair signals, alter shared memory, and shift the world toward or away from coherence?

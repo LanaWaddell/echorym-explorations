@@ -2,11 +2,11 @@
   "title": "echorym-explorations",
   "upload_type": "software",
   "creators": [
-    { "name": "Waddell, Lana", "affiliation": "Bright Days Inc." }
+    { "name": "Waddell, Lana C.", "orcid": "0009-0009-0199-9817" }
   ],
   "description": "Echorym: a world-system and research testbed for trust, coherence, and human-AI coupling under uncertainty. Design notes, Traces, schema, and the quantum-world experiment series.",
   "access_right": "open",
-  "license": "MIT",
+  "license": "mit",
   "keywords": ["Echorym", "coherence", "quantum-inspired", "world-system", "human-AI coupling"],
-  "notes": "AI-assisted drafting acknowledged (Echo/ChatGPT: translation; Claude: review). World design authored by Lana Waddell. Dated releases serve as defensive publication."
+  "notes": "AI-assisted drafting acknowledged (Echo/ChatGPT: translation; Claude: review). World design authored by Lana C. Waddell. Dated releases serve as defensive publication."
 }

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use or cite this work, please cite it using the metadata below. The concept DOI resolves to the latest released version."
+type: software
+title: "echorym-explorations"
+abstract: "Echorym: a world-system and research testbed for trust, coherence, and human-AI coupling under uncertainty. Design notes, Traces, schema, and the quantum-world experiment series."
+authors:
+  - family-names: "Waddell"
+    given-names: "Lana C."
+    orcid: "https://orcid.org/0009-0009-0199-9817"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22700638"
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.22700639"
+    description: "Version DOI for v0.3-stage1"
+repository-code: "https://github.com/LanaWaddell/echorym-explorations"
+license: MIT
+version: "v0.3-stage1"
+date-released: "2026-09-11"
+keywords:
+  - Echorym
+  - coherence
+  - quantum-inspired
+  - world-system
+  - human-AI coupling
