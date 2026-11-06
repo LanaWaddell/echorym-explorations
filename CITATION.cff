@@ -14,6 +14,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.22700639"
     description: "Version DOI for v0.3-stage1"
+  - type: doi
+    value: "10.5281/zenodo.23992097"
+    description: "Version DOI for v0.4-stages2-6"
 repository-code: "https://github.com/LanaWaddell/echorym-explorations"
 license: MIT
 version: "v0.4-stages2-6"
